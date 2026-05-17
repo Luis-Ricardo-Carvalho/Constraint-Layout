@@ -1,0 +1,107 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/netflix_dark_grey"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtNomeSerie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:drawablePadding="8dp"
+        android:text="Heartland"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:drawableBottomCompat="@drawable/outline_arrow_drop_down_circle_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtEpisodio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T10:E08"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/txtNomeSerie"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imgPoster"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/serie"
+        app:layout_constraintTop_toBottomOf="@id/txtEpisodio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarSerie"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:progress="50"
+        android:progressTint="@color/netflix_red"
+        android:thumbTint="@color/netflix_red"
+        app:layout_constraintTop_toBottomOf="@id/imgPoster"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="48dp" />
+
+    <TextView
+        android:id="@+id/txtTempoInicial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20:00"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/seekBarSerie"
+        app:layout_constraintStart_toStartOf="@id/seekBarSerie"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txtTempoFinal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40:00"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@id/seekBarSerie"
+        app:layout_constraintEnd_toEndOf="@id/seekBarSerie"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/imgReplay"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/outline_avg_pace_24"
+        app:layout_constraintTop_toBottomOf="@id/txtTempoInicial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgPlay"
+        android:layout_marginTop="32dp" />
+
+    <ImageView
+        android:id="@+id/imgPlay"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/outline_arrow_right_24"
+        app:layout_constraintTop_toTopOf="@id/imgReplay"
+        app:layout_constraintBottom_toBottomOf="@id/imgReplay"
+        app:layout_constraintStart_toEndOf="@+id/imgReplay"
+        app:layout_constraintEnd_toStartOf="@+id/imgSettings" />
+
+    <ImageView
+        android:id="@+id/imgSettings"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/outline_build_circle_24"
+        app:layout_constraintTop_toTopOf="@id/imgReplay"
+        app:layout_constraintStart_toEndOf="@+id/imgPlay"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

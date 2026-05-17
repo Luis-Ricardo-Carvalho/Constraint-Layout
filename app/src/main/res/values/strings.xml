@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ConstraintLayout</string>
+    <string name="button_post">Blog Post</string>
+    <string name="button_serie">Série</string>
+    <string name="button_concurso">Concurso de Textos</string>
+
+    <string-array name="lista_textos">
+        <item>Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.
+Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.Morbi in ultrices orci, porttitor tempus ex. Etiam ac posuere est, vitae venenatis turpis.</item>
+        <item>Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.
+Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.Curabitur nibh est, tempus non bibendum non, euismod vel lectus. Etiam vel accumsan ex.</item>
+        <item>Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.
+Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.Aliquam posuere pretium tellus eget vestibulum. Nam aliquet et ligula a elementum.</item>
+        <item>Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.Praesent id mi tempus, maximus dui in, blandit quam. Etiam at ornare eros.</item>
+    </string-array>
+
+    <string name="texto_blog_lorem">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan porttitor diam nec faucibus.\n\n
+    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque vel auctor quam.\n\n
+    Etiam dictum rutrum lacus, in interdum odio posuere eu. Aliquam arcu dui, sagittis at ultricies vel, dictum non dolor.
+    Aliquam tincidunt est at enim volutpat, vel aliquet velit rutrum.
+    </string>
+</resources>
